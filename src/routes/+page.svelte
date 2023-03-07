@@ -20,8 +20,8 @@ import type { DrinkType } from "src/types";
 <!-- Get each data in the right element from drinkState variable where drinkProp is stored -->
 
 <div class="wrapper">
-	<h1>Cocktail API Made with Svelte and TypeScript</h1>
-	<button class="btn" on:click={handleOnClick}>Get new drink</button>
+	<h1>Cocktail API</h1>
+	<button class="button" on:click={handleOnClick}>Get new drink</button>
 	<h1 class="drink-name">{drinkState.name}</h1> 
 	<img class="drink-thumb" src={drinkState.thumbUrl} alt="drink-thumb" />
 	<p>{drinkState.instructions}</p> 
@@ -42,12 +42,12 @@ import type { DrinkType } from "src/types";
 	align-items: center;
 	font-family: Arial, Helvetica, sans-serif;
 }
-.btn {
+.button {
 	padding: 0.5rem 1rem;
 	border: none;
 	background-color: black;
 	color: white;
-	border-radius: 2px;
+	border-radius: 4px;
 	cursor: pointer;
 }
 
