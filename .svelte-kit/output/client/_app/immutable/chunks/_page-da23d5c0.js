@@ -1,0 +1,1 @@
+const o=!0;async function r({fetch:e}){return{drinkProp:await(await e("./index.json")).json()}}const t=Object.freeze(Object.defineProperty({__proto__:null,prerender:!0,load:r},Symbol.toStringTag,{value:"Module"}));export{t as _,r as l,o as p};
