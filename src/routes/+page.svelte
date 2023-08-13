@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { DrinkType } from "src/types";
+  import type {DrinkType} from '../types';
 
   export let data: { drinkProp: DrinkType };
 
