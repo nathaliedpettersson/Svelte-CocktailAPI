@@ -7,11 +7,5 @@
 	],
 	"/index.json": [
 		"src/routes/index.json/+server.ts"
-	],
-	"/sverdle": [
-		"src/routes/sverdle/+page.server.ts"
-	],
-	"/sverdle/how-to-play": [
-		"src/routes/sverdle/how-to-play/+page.ts"
 	]
 }
