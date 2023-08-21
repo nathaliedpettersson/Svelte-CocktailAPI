@@ -1,4 +1,4 @@
-import type { IngredientType } from "src/types";
+import type { IngredientType } from "../../types";
 import { json } from "@sveltejs/kit";
 
 export async function GET(): Promise<Response> {
