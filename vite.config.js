@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig(({ command, mode }) => ({
   base: command === 'build' ? '/etc.clientlibs/<project>/clientlibs/' : '/',
@@ -21,9 +20,7 @@ export default defineConfig(({ command, mode }) => ({
     },
   },
 
-  plugins: [tsconfigPaths()],
-
   server: {
-    origin: 'http://localhost:5173',
+    origin: 'https://localhost:5173',
   },
 }));
