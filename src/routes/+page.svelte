@@ -1,4 +1,5 @@
 <script lang="ts">
+
   import type {DrinkType} from '../types';
 
   export let data: { drinkProp: DrinkType };
@@ -7,6 +8,7 @@
 
   const handleOnClick = async () => {
     const result = await (await fetch("./index.json")).json();
+    console.log(result);
     drinkState = result;
   };
 </script>
